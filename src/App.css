@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.product-list {
+  text-align: left;
+}
+
+header {
+  padding: 6px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+s nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 4px;
+}
+
+nav li a {
+
+  background-color: rgb(124, 124, 124);
+  color: white;
+  border-radius: 6px;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.CreateUser form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
